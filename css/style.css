@@ -148,6 +148,58 @@ body{
 }
 /* End Genres Section */
 
+/* Services Section */
+.services-section{
+    margin: 30px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.services-section-header{
+    max-width: 910px;
+    padding: 10px;
+}
+
+.ser-h1{
+    font-weight: var(--font-900);
+    font-size: 33px; /* changed 63 */
+    line-height: 44px; /* changed 94 */ 
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000; 
+}
+
+.ser-desc{
+    font-weight: var(--font-400);
+    font-size: 18px; /* changed 36 */
+    line-height: 24px; /* changed 54 */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1E1E1E;
+}
+
+.show-services{
+    margin: 30px 0;
+}
+
+.show-table{
+    width: 230px;
+    height: 50px;
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 12px;
+    
+    font-size: 1.2rem;
+    color: var(--font-color);
+    font-family: var(--font-family);
+    text-transform: uppercase;
+}
+
+.premium-table{
+    display: none;
+}
+/* End Services Section */
+
 
 /* DEFAULT CLASSES */
 /* cursor pointer */
