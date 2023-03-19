@@ -13,6 +13,7 @@
         font-size: 15px;
         line-height: 25px;
         letter-spacing: 0.01em;
+        cursor: pointer;
     }
 
     .list-title i{
@@ -20,10 +21,83 @@
     }
 }
 
-@media only screen and (min-width: 964px) {
-
-}
-
 @media only screen and (min-width: 1024px) {
+    .home{
+        background: url(/assets/images/backman.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+
+        width: 100%;
+        height: 1064px;
+    }
+
+    /* Header */
+    .header{
+        position: fixed;
+    }
+
+    .logo{
+        margin-left: 25px;
+        width: 100px; /* changed 125px */ 
+    }
+
+    .nav-ul{
+        display: flex;
+        gap: 25px; /* changed 40 */
+        margin-right: 70px; /* changed 105 */
+    }
+
+    .menu-icon{
+        display: none;
+    }
+
+    /* value description */
+    .value-desc{
+        position: absolute;
+        top: 351px;
+        right: 20px; /* changed 105 */
+    }
+
+    .scrollbar-images{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        width: 100%;
+
+        position: absolute;
+        bottom: 20px;
+    }
+
+    /* choose plan section */
+    .choose-plan{
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        gap: 20px;
+    }
+
+    .choose-plan-description::before{
+        content: "";
+        border: 1px solid #FFFFFF;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%; 
+        width: 1px; 
+        background-color: #000; 
+        transform: translateX(-50%); 
+    }
+
+    /* Genres section */
+    .genres-section{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .footer-categ{
+        width: 600px;
+        gap: 40px;
+    }
 
 }
