@@ -23,7 +23,7 @@
 
 @media only screen and (min-width: 1024px) {
     .home{
-        background: url(/assets/images/backman.png);
+        background: url(../assets/images/backman.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center top;
