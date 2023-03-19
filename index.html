@@ -11,22 +11,22 @@
     <link rel="stylesheet" type="text/css" href="./css/media.css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/69/982/png-clipart-music-icon-itunes-computer-icons-logo-itunes-text-logo.png">
     <title>Music Streaming</title>
-</head>
+</head> 
 <body>
     <!-- Main Section -->
     <section class="home">
         <header class="header def-flex-row">
             <img src="./assets/images/logo.png" alt="logo" class="logo poi" />
             <nav class="nav-bar">
-                <ul>
+                <ul class="nav-ul">
                     <li class="items poi">Premium</li>
                     <li class="items poi">Discover</li>
                     <li class="items poi">Join</li>
                 </ul>
+                <div class="menu-icon poi">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
-            <div class="menu-icon poi">
-                <i class="fa-solid fa-bars"></i>
-            </div>
         </header>
 
         <!-- service value description -->
@@ -44,11 +44,15 @@
             <i class="fa-solid fa-ellipsis"></i>
         </div>
 
-        <!-- Plans choose Section -->
-    <div class="choose-plan">
+    </section>
+    <!-- End Main Section -->
+
+    <!-- Plans choose Section -->
+    <section class="choose-plan grid-one-fr">
         <div class="singer-girl">
             <img src="./assets/images/musgirl.png" alt="singer girl" class="sing-girl poi" />
         </div>
+
         <div class="choose-plan-description def-flex-col desc-divider">
             <h1 class="plan-title">get millions</h1>
             <p class="plan-desc">
@@ -58,14 +62,12 @@
             </p>
             <button class="primary-btn btn-two btn-hover poi">choose plans</button>
         </div>
-    </div>
+
+        </section>
     <!-- End Plans section -->
 
-    </section>
-    <!-- End Main Section -->
-
     <!-- Genres Section -->
-    <section class="genres-section def-flex-col">
+    <section class="genres-section grid-one-fr">
             <p class="genres-description">
                 <span class="pl-any">Play any song,</span> no interruptions
                 Hear the music you love without 
@@ -87,7 +89,7 @@
         </div>
 
         <div class="show-services">
-            <button onclick="" class="show-table poi">show table <i class="fa-solid fa-arrow-down"></i></button>
+            <button onclick="" class="show-table poi">show table</button>
         </div>
 
         <!-- services table -->
